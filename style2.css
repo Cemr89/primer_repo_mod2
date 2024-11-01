@@ -1,0 +1,56 @@
+*{
+    background-color: rgb(152, 143, 143);
+    font-size: larger;
+    font-family: serif;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+p{
+    color: red;
+    font-size: 24px;
+}
+.purple{
+    color: chocolate;
+}
+.choro{color: lightskyblue;
+}
+#parrafo{
+    color: blueviolet;
+    font-size: 35px;
+}
+.container{
+    display: inline-block;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    color: darkgray;
+    background-color: honeydew;
+    
+}
+
+#caja{
+display: block;
+}
+.boton{
+    background-color: rgb(10, 60, 242);
+    border: 2px solid orange;
+    color: rgb(204, 20, 20);
+    padding: 10px 30px;
+    font-size: 16px;
+    margin: 9px 9px;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color:orange;
+}
+.input_con_borde{
+    border: 2px solid orange;
+    padding: 5px;
+    font-size: 29px;
+}
+.input_con_borde:focus {
+    border-color: blue;
+    outline: none;
+}
